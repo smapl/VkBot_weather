@@ -11,6 +11,8 @@ yandex-weather-api = "^0.2.4"
 requests = "^2.23.0"
 
 [tool.poetry.dev-dependencies]
+pylint = "^2.4.4"
+black = {version = "^19.10b0", allow-prereleases = true}
 
 [build-system]
 requires = ["poetry>=0.12"]
